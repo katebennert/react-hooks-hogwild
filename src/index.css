@@ -9,6 +9,12 @@ body {
   text-align: center;
 }
 
+p
+{
+margin: 0;
+padding: 0;
+}
+
 .TwirlyPig {
   transition: all 3s ease-in-out;
   display: inline;
@@ -110,6 +116,12 @@ ul {
 
 .pigTile h3 {
   color: #FBB;
+}
+
+.pigTile img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
 
 .minPigTile {
